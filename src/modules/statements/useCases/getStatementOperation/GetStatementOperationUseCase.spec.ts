@@ -28,7 +28,7 @@ describe("create statement", () => {
       inMemoryUsersRepository,
       inMemoryStatementsRepository)
   })
-  it("should be able to create a deposit", async() => {
+  it("should be able to get operation", async() => {
     const user: ICreateUserDTO = {
       email: "any_email",
       name: "any_name",

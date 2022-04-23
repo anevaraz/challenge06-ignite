@@ -40,7 +40,7 @@ describe("get balance", () => {
       user_id: token.user.id as string
     })
 
-    expect(balance).toHaveProperty("statement")
+    expect(balance).toHaveProperty("balance")
   })
 
   it("should not be able to get balance if user not found", async() => {
